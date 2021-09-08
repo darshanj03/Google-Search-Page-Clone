@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: inline-block;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  float: right;
+  padding-right: 4px;
+  align-items: center;
+}
+
+.nav-bar-link {
+  display: block;
+  padding-right: 15px;
+}
+
+.nav-bar-link a {
+  margin-right: 5px;
+}
+
+.nav-bar-icons {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.nav-bar-icons a {
+  margin-right: 5px;
+}
+
+.a-apps {
+  height: 24px;
+  width: 24px;
+  padding: 8px;
+}
+
+.a-profile {
+  height: 32px;
+  width: 32px;
+  padding: 4px;
+}
+
+#apps {
+  height: 16px;
+  width: 16px;
+}
+
+.profile {
+  display: block;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.header a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 13px;
+}
+
+/* #input_container {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+#input {
+  height: 20px;
+  margin: 0;
+  padding-left: 30px;
+}
+#input_img {
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  width: 10px;
+  height: 10px;
+} */
