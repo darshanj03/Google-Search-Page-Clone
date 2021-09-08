@@ -30,7 +30,7 @@ body {
 }
 
 .nav-bar-link a {
-  margin-left: 15px;
+  margin-left: 12px;
 }
 
 .nav-bar-icons {
@@ -41,11 +41,13 @@ body {
   /* background-color: grey; */
   /* margin-top: 6px;
   margin-right: 5px; */
+  margin-left: 5px;
 }
 
 .nav-bar-icons a {
   /* margin-right: 5px; */
   margin-left: 15px;
+  /* background-color: grey; */
 }
 
 .a-apps {
@@ -64,6 +66,7 @@ body {
   height: 32px;
   width: 32px;
   border-radius: 50%;
+  margin-left: 5px;
 }
 
 .header a {
