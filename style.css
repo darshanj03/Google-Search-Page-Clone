@@ -1,3 +1,5 @@
+/*common classes */
+
 * {
   box-sizing: border-box;
 }
@@ -8,12 +10,22 @@ body {
   font-family: Arial, sans-serif;
 }
 
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+/* common classes ends here */
+
+/* header classes */
+
 .header {
   display: inline-block;
   flex-grow: 1;
   width: 100%;
   padding: 6px;
-  /* background-color: grey; */
 }
 
 .nav-bar {
@@ -53,6 +65,10 @@ body {
 .profile:hover {
   box-shadow: rgba(143, 143, 143, 0.8) 0px 0px 12px;
 }
+
+/* header classes ends here */
+
+/* main section classes */
 
 .main-section {
   display: flex;
@@ -138,6 +154,10 @@ body {
   text-decoration: underline;
 }
 
+/* main section ends here */
+
+/* footer starts */
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -192,9 +212,4 @@ body {
   flex-direction: row;
 }
 
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
+/* footer ends here */
